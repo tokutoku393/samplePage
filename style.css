@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(250, 220, 225);
+}
+
+h1 {
+    color: palevioletred;
+    text-align: center;
+    line-height: 500px;
+    font-size: 200%;
+    text-shadow: 5px 5px 1px #ffffff;
+}
+
+p {
+    color: grey;
+}
+
+button {
+    background-color: palevioletred;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-size: 110%;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+}
+.hero {
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/src/hero.png');
+}
+
+
+.box-contents {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box-item {
+    width: 300px;
+    padding: 0px 30px 40px 30px;
+    margin: 25px;
+    text-align: center;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+}
+
+.item-title {
+    font-size: 130%;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: solid 4px palevioletred; 
+}
+
+.caution_img {
+    width: 150px;
+}
